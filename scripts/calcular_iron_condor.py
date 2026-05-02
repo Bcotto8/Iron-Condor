@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.optimize import brentq
+from scipy.stats import norm
 
 class IronCondor:
     def __init__(self, strikes, premiums, delta_target):
